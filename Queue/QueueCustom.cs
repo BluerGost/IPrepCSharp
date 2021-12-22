@@ -41,6 +41,7 @@ namespace Queue
 
             T tempVar = _front.value;
             _front = _front.next;
+            Count--;
             return tempVar; ;
         }
 
