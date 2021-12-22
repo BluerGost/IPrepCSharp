@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Stack
 {
-    internal interface IStack<T>
+    internal interface IStackCustom<T>
     {
         public void Push(T value);
         public T Pop();

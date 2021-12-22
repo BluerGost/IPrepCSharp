@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Queue
 {
-    internal interface IQueue<T>
+    internal interface IQueueCustom<T>
     {
         public void Enqueue(T value);
         public T Dequeue();

@@ -8,6 +8,11 @@ namespace Stack
 {
     internal class StackCustom<T> : IStackCustom<T>
     {
+        public int MyProperty { get; set; }
+        public StackCustom()
+        {
+
+        }
         public T Peek()
         {
             throw new NotImplementedException();
