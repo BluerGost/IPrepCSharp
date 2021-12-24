@@ -1,23 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31912.275
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{FB5C552A-4393-4F21-9B7B-56309EF80B8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{9354D56E-A731-4CA0-9978-BE492A7E0BBD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{68BB125D-8130-4EFE-89E7-C5C732BF6F90}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "..\IPrep\Coding\Catagorized\DataStructures\.NET\LinkedList\LinkedList\LinkedList.csproj", "{48B0FE82-9736-4D65-95A4-EA76D0CBA357}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{8EC6A661-5BBE-4F6C-933E-F4902B4906A9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{57468708-2696-404C-B890-F8DFFF593C65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{A0EB2270-6BB7-413A-A42B-8EB39D568320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue", "Queue\Queue.csproj", "{A0EB2270-6BB7-413A-A42B-8EB39D568320}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{BF44ACF7-7F98-453A-B3A8-E83620994895}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack", "Stack\Stack.csproj", "{BF44ACF7-7F98-453A-B3A8-E83620994895}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{DD069C33-8E6E-4704-B6DF-CDEAB418A930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{F3304430-1702-43C8-AB8E-2A229F19AAAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{48B0FE82-9736-4D65-95A4-EA76D0CBA357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48B0FE82-9736-4D65-95A4-EA76D0CBA357}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48B0FE82-9736-4D65-95A4-EA76D0CBA357}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48B0FE82-9736-4D65-95A4-EA76D0CBA357}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0EB2270-6BB7-413A-A42B-8EB39D568320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A0EB2270-6BB7-413A-A42B-8EB39D568320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0EB2270-6BB7-413A-A42B-8EB39D568320}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,17 +33,20 @@ Global
 		{BF44ACF7-7F98-453A-B3A8-E83620994895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF44ACF7-7F98-453A-B3A8-E83620994895}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF44ACF7-7F98-453A-B3A8-E83620994895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3304430-1702-43C8-AB8E-2A229F19AAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3304430-1702-43C8-AB8E-2A229F19AAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3304430-1702-43C8-AB8E-2A229F19AAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3304430-1702-43C8-AB8E-2A229F19AAAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{68BB125D-8130-4EFE-89E7-C5C732BF6F90} = {FB5C552A-4393-4F21-9B7B-56309EF80B8D}
-		{48B0FE82-9736-4D65-95A4-EA76D0CBA357} = {68BB125D-8130-4EFE-89E7-C5C732BF6F90}
 		{8EC6A661-5BBE-4F6C-933E-F4902B4906A9} = {FB5C552A-4393-4F21-9B7B-56309EF80B8D}
 		{57468708-2696-404C-B890-F8DFFF593C65} = {FB5C552A-4393-4F21-9B7B-56309EF80B8D}
 		{A0EB2270-6BB7-413A-A42B-8EB39D568320} = {57468708-2696-404C-B890-F8DFFF593C65}
 		{BF44ACF7-7F98-453A-B3A8-E83620994895} = {8EC6A661-5BBE-4F6C-933E-F4902B4906A9}
+		{F3304430-1702-43C8-AB8E-2A229F19AAAB} = {DD069C33-8E6E-4704-B6DF-CDEAB418A930}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {708E13D5-A7A1-4F22-A7A8-EE46DD1990EF}
